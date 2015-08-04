@@ -40,7 +40,7 @@ class StackedQueue():
         return result
 
     '''
-
+        The function below handles testing for the script.
     '''
 
     def tests(self):
@@ -58,8 +58,6 @@ class StackedQueue():
 
         remove = self.dequeue()
         print "dequeue() = " + str(remove)
-
-        print ""
 
         print "+++++++++++ Test 2: Negative Integer ++++++++++"
         print "enqueue(1)"
