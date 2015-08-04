@@ -1,7 +1,7 @@
 # Python-Practice-Problems
 A repo for practicing programming interview problems, using Python.
 
-== History
+# History
 
 As I am entering my last year of my degree, I wanted to ensure that I take the time to
 practice as many programming problems in preparation for interviews but also in order
