@@ -14,28 +14,14 @@ class MinValue():
 
     def __init__(self):
         self.myList = []
-        self.mins = []
-
-    def pop(self, item):
-        if item > self.mins.pop():
-            self.mins.append(item)
-
-    def push(self, add, list):
-        return "testing"
-
 
     def minimum(self, item):
         self.myList = item
-        print "self.myList = " + str(self.myList)
         min = self.myList[0]
 
         for item in self.myList:
-            print "item = " + str(item)
             if item < min:
                 min = item
-                print "min = " + str(min)
-
-        self.mins.append(min)
         return min
 
 
